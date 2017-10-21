@@ -7,6 +7,3 @@ ADD . /app
 ADD Gemfile /app/Gemfile
 ADD Gemfile.lock /app/Gemfile.lock
 RUN bundle install
-
-# Add default unicorn config
-ADD config/unicorn.rb /app/config/unicorn.rb
